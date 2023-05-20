@@ -14,7 +14,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 70px;
-    padding: 0px 30px 0px 30px; 
+    padding: 0px 40px 0px 40px; 
 }
 
 .logo{
@@ -35,4 +35,159 @@ header{
 .navbar-list a {
     color: #EBE18C;
     font-size: 18px;
+}
+
+/*main*/
+
+main{
+    padding: 70px 0;
+    background:#152b42 ;
+    display: flex;
+    flex-direction:column;
+    color: #152b42;
+    justify-content: center;
+    width: 100%;
+
+}
+
+#portada-info{
+    padding: 0 40px 0 40px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info h1{
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+    font-weight: 800;
+    color: #EBE18C;
+    margin-left: 60px;
+}
+
+.info a{
+    background-color: #EBE18C;
+    color: #152b42;
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 6px;
+    margin-left: 60px;
+    text-align: center;
+   }
+
+
+.texto{
+    color: #EBE18C;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: center;
+}
+
+.foto img{ 
+    
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*tarjetas*/
+
+#tarjetas{
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+}
+
+#tarjetas h2{
+    font-size: 32px;
+    font-weight: 800;
+    color: #EBE18C;
+}
+
+.tarjetas-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.info-tarj{
+    width: 300px;
+    height: 290px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #033E50;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.info-tarj img{
+    width: 50px;
+}
+
+.info-tarj h3{
+    font-weight: 600;
+    font-size: 18px;
+    color: #EBE18C;
+}
+
+.info-tarj p{
+    font-size: 18px;
+    font-weight: 300;
+    color:beige;
+}
+
+/*footer*/
+
+#info-footer{
+    padding: 0 40px 0 40px;
+    background:#152b42 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #152b42;
+    gap: 30px;
+  
+}
+
+.info1{
+    color:#EBE18C;
+}
+
+.info1 h3{
+ font-weight: 600;
+ font-size: 28px;
+}
+
+.info1 p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.foto-footer img{
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+}
+.logo img{
+    width: 50px;
+    display: inline;
+    gap: 10px;
 }
